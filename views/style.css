@@ -1,0 +1,44 @@
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+img{
+	display: block;
+	/*width: 100%;*/
+}
+
+
+a{
+	color: inherit;
+	text-decoration: none;
+}
+
+.clearfix:after{
+	content:"";
+	display: block;
+	clear: both;
+}
+
+#container{
+	/*width: 80%;*/
+	margin: 0 auto;
+}
+
+header #header_left{
+	width: 33%;
+	float: left;
+
+}
+
+header #header_center{
+	width: 33%;
+	float: left;
+}
+
+header #header_right{
+	width: 33%;
+	float: left;
+}
